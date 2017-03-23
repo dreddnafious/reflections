@@ -23,3 +23,7 @@ it helps you mostly by understanding that various branches have nodes that are u
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 it merges as best as it can the two branches and makes them in to one branch. it is represented that way because it accurately reflects what's happening. two branches of a tree become one branch after all differences are resolved.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+auto merging is faster and easier when there are no conflicts. when there are conflicts its better to be involved instead of having git break your application.
