@@ -15,3 +15,11 @@ by adding each file in the commit you can verify that you're make a sane and rea
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 if you're implementing a radical change or an experimental feature you can branch off the code and work without messing up the master branch. Branches allow you to have multiple versions of similar code, maybe one branch for one GUI another branch for a different GUI.
+
+How do the diagrams help you visualize the branch structure?
+
+it helps you mostly by understanding that various branches have nodes that are unreachable, and the code in that branch make not reflect all of the code in the other branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it merges as best as it can the two branches and makes them in to one branch. it is represented that way because it accurately reflects what's happening. two branches of a tree become one branch after all differences are resolved.
