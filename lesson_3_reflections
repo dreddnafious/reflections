@@ -9,3 +9,7 @@ if changes are made that are incompatible with your code it wont break it, and i
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks are essentially cloning someone elses' repository but giving them credit. this happens on github only. Cloning is a pure copy of an exisiting repository and is how you update to current code from github. A branch is used to segment different parts of code, it is similar to a commit just less granular and may eventually be merged back in to the main branch, or could be used outside the main branch to support other features or languages.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows you to diff between your copy of the origin and how the origin has changed since you pulled it down. this will alert you to changes you need to know about and find conflicts between your new code and other peoples new code so you can fix them.
