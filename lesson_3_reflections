@@ -17,3 +17,8 @@ This allows you to diff between your copy of the origin and how the origin has c
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You could email files or use dropbox. Both are less mentally draining for the contributor but way tougher for the person that is merging information.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Big changes should be made in a branch so that the main code you rely on doesn't change while you're working on it. Make changes to master only is easier to work with as far as github but will become fragile over time and risks having the rug pulled out from under you while youre developing a feature that relies on something that has changed.
+
