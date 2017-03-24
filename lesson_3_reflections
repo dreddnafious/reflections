@@ -13,3 +13,7 @@ Forks are essentially cloning someone elses' repository but giving them credit. 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This allows you to diff between your copy of the origin and how the origin has changed since you pulled it down. this will alert you to changes you need to know about and find conflicts between your new code and other peoples new code so you can fix them.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could email files or use dropbox. Both are less mentally draining for the contributor but way tougher for the person that is merging information.
