@@ -5,3 +5,7 @@ if your hard drive crashes you have a back up, also you can work from multiple c
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 if changes are made that are incompatible with your code it wont break it, and if it does you can roll back your active branch until it works again and find the issue. also you keep more control over your working environment.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are essentially cloning someone elses' repository but giving them credit. this happens on github only. Cloning is a pure copy of an exisiting repository and is how you update to current code from github. A branch is used to segment different parts of code, it is similar to a commit just less granular and may eventually be merged back in to the main branch, or could be used outside the main branch to support other features or languages.
